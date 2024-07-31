@@ -15,7 +15,7 @@ builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.Requ
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
-builder.Services.AddSingleton<ITodoItemService, FakeTodoItemService>(); // P. 39 we are not using Startup.cs, we use this
+builder.Services.AddScoped<ITodoItemService, TodoItemService>(); // P. 39 we are not using Startup.cs, we use this; P. 59
 
 
 var app = builder.Build();
