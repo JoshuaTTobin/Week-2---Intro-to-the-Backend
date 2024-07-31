@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo", "AspNetCoreTodo\AspNetCoreTodo.csproj", "{BAC44A8F-5880-4F22-9796-B62AF9BC65E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreTodo", "AspNetCoreTodo.csproj", "{76515848-5C52-468D-AB33-28A600B67B00}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BAC44A8F-5880-4F22-9796-B62AF9BC65E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BAC44A8F-5880-4F22-9796-B62AF9BC65E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BAC44A8F-5880-4F22-9796-B62AF9BC65E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BAC44A8F-5880-4F22-9796-B62AF9BC65E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76515848-5C52-468D-AB33-28A600B67B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76515848-5C52-468D-AB33-28A600B67B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76515848-5C52-468D-AB33-28A600B67B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76515848-5C52-468D-AB33-28A600B67B00}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {342CA36C-58DB-48C3-AA77-2599C8ED651A}
+		SolutionGuid = {0845352B-147E-48CF-909A-9A3E087AC5E8}
 	EndGlobalSection
 EndGlobal
