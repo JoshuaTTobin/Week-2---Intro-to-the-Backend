@@ -1,45 +1,47 @@
 @model ManageUsersViewModel
+
 @{
     ViewData["Title"] = "Manage users";
 }
+
 <h2>@ViewData["Title"]</h2>
 
 <h3>Administrators</h3>
+
 <table class="table">
-    <thead>
-        <tr>
-            <td>Id</td>
-            <td>Email</td>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model.Administrators)
-        {
-            <tr>
-                <td>@user.Id</td>
-                <td>@user.Email</td>
-            </tr>
-        }
-    </tbody>
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Email</td>
+		</tr>
+	</thead>
+
+	@foreach (var user in Model.Administrators)
+	{
+		<tr>
+			<td>@user.Id</td>
+			<td>@user.Email</td>
+		</tr>
+	}
 </table>
 
 <h3>Everyone</h3>
+
 <table class="table">
-    <thead>
-        <tr>
-            <td>Id</td>
-            <td>Email</td>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var user in Model.Everyone)
-        {
-            <tr>
-                <td>@user.Id</td>
-                <td>@user.Email</td>
-            </tr>
-        }
-    </tbody>
+	<thead>
+		<tr>
+			<td>Id</td>
+			<td>Email</td>
+		</tr>
+	</thead>
+
+	@foreach (var user in Model.Everyone)
+	{
+		<tr>
+			<td>@user.Id</td>
+			<td>@user.Email</td>
+		</tr>
+	}
 </table>
 
-<!--p.88-89 made new views/manageUsers folder-- Views/ManageUsers/Index.cshtml 
+<!--p.88-89 made new views/manageUsers folder-- Views/ManageUsers/Index.cshtml -->
